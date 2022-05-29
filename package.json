@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hiepxanh/partytown-example/issues"
   },
-  "homepage": "https://github.com/hiepxanh/partytown-example#readme"
+  "homepage": "https://github.com/hiepxanh/partytown-example#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
