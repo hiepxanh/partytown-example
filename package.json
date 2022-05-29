@@ -2,10 +2,12 @@
   "name": "partytown-example",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ec3d5a21d0180b31.js",
+  "main": "server-html.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server-html.js",
+    "copy-angular": "partytown copylib public-angular/~partytown",
+    "copy-html": "partytown copylib public-html/~partytown"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/hiepxanh/partytown-example#readme",
   "dependencies": {
+    "@builder.io/partytown": "^0.6.0",
     "cors": "^2.8.5",
     "express": "^4.18.1"
   }
